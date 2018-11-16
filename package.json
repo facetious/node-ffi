@@ -1,12 +1,15 @@
 {
   "name": "ffi",
-  "version": "2.2.0",
+  "version": "2.2.0-nanometrics",
   "license": "MIT",
   "author": "Rick Branson",
   "contributors": [
     "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
     "Gabor Mezo <gabor.mezo@outlook.com> (https://github.com/unbornchikken)"
   ],
+  "publishConfig": {
+    "registry": "https://nexus.nmx.ca/repository/npm-releases/"
+  },
   "description": "A foreign function interface (FFI) for Node.js",
   "keywords": [
     "foreign",
